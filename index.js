@@ -12,3 +12,4 @@ for (var i = 0; i < line.length; i++) {
 
 return `Welcome, ${name}. You are number ${count} in line.`;
 }
+
