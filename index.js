@@ -13,7 +13,16 @@ for (var i = 0; i < line.length; i++) {
 return `Welcome, ${name}. You are number ${count} in line.`;
 }
 
+function nowServing(katzDeliLine) {
 
+if (katzDeliLine.length === 0) {
+ return 'There is no body waiting to be served!';
+}
+
+return katzDeliLine.shift();
+
+}
+nowServing(katzDeliLine);
 
 
 function currentLineMine(line) {
