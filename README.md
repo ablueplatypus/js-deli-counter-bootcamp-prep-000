@@ -36,7 +36,7 @@ nowServing(katzDeliLine); // "Currently serving Ada."
 
 currentLine(katzDeliLine); // "The line is currently: 1. Grace, 2. Kent"
 
-takeANumber(katzDeliLine, "Matz"); // "Welcome, Matz. You are number 1 in line."
+takeANumber(katzDeliLine, "Matz"); // "Welcome, Matz. You are number 3 in line."
 
 currentLine(katzDeliLine); // "The line is currently: 1. Grace, 2. Kent, 3. Matz"
 
